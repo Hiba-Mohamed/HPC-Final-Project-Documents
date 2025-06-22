@@ -3,9 +3,9 @@
 #SBATCH --output=habit_tracker_%j.out
 #SBATCH --error=habit_tracker_%j.err
 #SBATCH --time=03:00:00
-#SBATCH --cpus-per-task=4
-#SBATCH --mem=16G
-#SBATCH --partition=standard
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=4G
+#SBATCH --partition=cpubase_bycore_b1
 
 module load python/3.9
 
